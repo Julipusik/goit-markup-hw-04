@@ -182,7 +182,7 @@ img {
     width: 64px;
     height: 64px;
 }
-.icons-list-item {
+.icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -191,10 +191,7 @@ img {
     background-color: var(--light);
     margin-bottom: 8px;
 }
-.icons-list {
-    display: flex;
-    gap: 24px;
-}
+
 /* section 3 */
 .third-section {
     padding-top: 0;
@@ -270,7 +267,7 @@ img {
     align-items: center;
     justify-content: center;
 }
-.social-media .item {
+.social-media .link {
     display: flex;
     align-items: center;   
     justify-content: center;
@@ -280,8 +277,9 @@ img {
     background-color: var(--primary-brand);
     fill: #F4F4FD;
 }
-.social-media .item:is(:hover,:focus) {
+.social-media .link:is(:hover,:focus) {
     background-color: var(--pressed-state);
+    border-radius: 50px;
 }
 /* section 5 */
 .customers-heading {
@@ -352,7 +350,7 @@ img {
     justify-content: center;
     gap: 16px;
 }
-.footer-social .item {
+.footer-social .link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -363,8 +361,9 @@ img {
     fill: var(--light);
 }
 
-.footer-social .item:is(:hover, :focus) {
+.footer-social .link:is(:hover, :focus) {
     background-color: var(--success);
+    border-radius: 50px;
 }
 /* main Portfolio */
 .menu-list {
